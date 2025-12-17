@@ -25,8 +25,11 @@ A **shell** is a command-line interface (CLI) that allows users to interact wi
     - Commands like `cd`, `fg`, `bg` implemented within shell
 
 **Tokenizer** - Break commands into arguments
+
 **Parser** - Create AST from tokens
+
 **Executor** - Execute parsed commands using `fork()` + `exec()`
+
 **Simple command execution** (not just echoing)
 ### SHELL PROMPT TYPES
 
